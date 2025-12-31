@@ -5,11 +5,11 @@
 # Site
 title: Hexo
 subtitle: ''
-description: ''
+description: 'test description'
 keywords:
-author: John Doe
+author: Jon Loh
 language: en
-timezone: ''
+timezone: 'Asia/Singapore'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -63,6 +63,10 @@ index_generator:
   path: ''
   per_page: 10
   order_by: -date
+archive_generator:
+  per_page: 10
+  yearly: true
+  monthly: true
 
 # Category & Tag
 default_category: uncategorized
