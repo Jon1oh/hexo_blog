@@ -13,18 +13,13 @@ nav:
   # Navigation bar logo image
   logo:
   display_title: true
-  display_post_title: true
-  # Whether to fix navigation bar
   fixed: true
 
 menu:
   Home: / || fas fa-home
-  Archives: /archives || fas fa-archive
-  # Tags: /tags || fas fa-tags
-  About: /about || fas fa-user
-  # List||fas fa-list:
-  #   Music: /music/ || fas fa-music
-  #   Movie: /movies/ || fas fa-video
+  Archives: /archives/ || fas fa-archive
+  VL-Writeups: /categories/Vulnlab || fas fa-folder-open
+  About: /about/ || fas fa-user
 
 # --------------------------------------
 # Code Blocks Settings
@@ -49,14 +44,15 @@ code_blocks:
 # Formal:
 #   icon: link || the description || color
 social:
-  # fab fa-github: https://github.com/xxxxx || Github || '#24292e'
+  fab fa-github: https://github.com/jon1oh || Github || '#24292e'
+  fab fa-linkedin: https://www.linkedin.com/in/jon-loh/ || LinkedIn || '#0a66c2'
   # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a7dbe'
 
 # --------------------------------------
 # Image Settings
 # --------------------------------------
 
-favicon: /images/favicon.png
+favicon: /images/avatar.jpg
 
 avatar:
   img: /images/avatar.jpg
@@ -69,7 +65,7 @@ disable_top_img: false
 default_top_img:
 
 # The banner image of index page
-index_img:
+index_img: /images/
 
 # The banner image of archive page
 archive_img:
@@ -169,7 +165,9 @@ subtitle:
   source: true
   # If you close the typewriter effect, the subtitle will only show the first line of sub
   sub:
-    - "Test"
+    - "Do it tired"
+    - "Do it alone"
+    - "Do it anyway"
 
 # Article layout on the homepage
 # 1: Cover on the left, info on the right
@@ -291,13 +289,10 @@ aside:
     enable: true
     description:
     button:
-      enable: true
-      icon: fab fa-github
-      text: 
-      link: https://github.com/jon1oh
+      enable: false
   card_announcement:
     enable: true
-    content: Welcome to my blog site!
+    content: Welcome to my blog site! This is where I share my VulnLab writeups and all things cyber!
   card_recent_post:
     enable: true
     # If set 0 will show all

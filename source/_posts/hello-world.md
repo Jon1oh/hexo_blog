@@ -1,38 +1,16 @@
 ---
 title: Hello World
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
-## Quick Start
+Hello there! 
 
-### Create a new post
+My names is Jon. I'm an InfoSec Undergraduate at the Singapore Institute of Technology (SIT) who gradauted from Nanyang Polytechnic (NYP) with a Diploma in Cybersecurity and Digital Forensics. I'm passionate about Information Security, Pentesting and all things in tech.
 
-``` bash
-$ hexo new "My New Post"
-```
+This site is my space to share my VulnLab write-ups, security research and projects. 
 
-More info: [Writing](https://hexo.io/docs/writing.html)
+Besides cybersecurity, I'm a passionate fingerstyle guitarist, freelance chorister and fitness enthusiast.
 
-### Run server
+Feel free to browse around. I hope you find something that interests you!
 
-``` bash
-$ hexo server
-```
-
-More info: [Server](https://hexo.io/docs/server.html)
-
-### Generate static files
-
-``` bash
-$ hexo generate
-```
-
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-### Deploy to remote sites
-
-``` bash
-$ hexo deploy
-```
-
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+Best regards,
+Jon Loh
